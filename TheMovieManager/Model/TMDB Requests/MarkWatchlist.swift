@@ -14,7 +14,6 @@ struct MarkWatchList: Codable {
     let watchList: Bool
 
     
-    
     enum CodingKeys:String,CodingKey{
         case mediaType = "media_type"
         case mediaId = "media_id"
